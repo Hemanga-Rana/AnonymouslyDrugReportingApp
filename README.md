@@ -3,6 +3,7 @@
 # We made this project in Smart India Hackathon organized by CGU.
 
 OTP Send Activity
+
 ![image](https://user-images.githubusercontent.com/95037269/178002619-4f80b887-b130-498b-9f63-b44b0db0b3a1.png)
 
 OTP Verify Activity
