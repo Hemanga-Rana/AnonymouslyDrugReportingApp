@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Hindi.InfoHindiActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          About"
+                android:textColor="@color/colortextprimary"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:transitionName="logo_text" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/colortextprimary"
+                android:text="नारकोटिक्स कंट्रोल ब्यूरो (abbr। NCB) भारत सरकार के गृह मंत्रालय के तहत एक भारतीय केंद्रीय कानून प्रवर्तन और खुफिया एजेंसी है। एजेंसी को नारकोटिक ड्रग्स एंड साइकोट्रोपिक सब्सटेंस एक्ट के प्रावधानों के तहत मादक पदार्थों की तस्करी और अवैध पदार्थों के उपयोग से निपटने का काम सौंपा गया है। नारकोटिक्स कंट्रोल ब्यूरो 17 मार्च 1986 को नारकोटिक ड्रग्स एंड साइकोट्रोपिक सब्सटेंस एक्ट, 1985 के पूर्ण कार्यान्वयन को सक्षम करने और नारकोटिक ड्रग्स एंड साइकोट्रोपिक सब्सटेंस एक्ट, 1988 में अवैध तस्करी की रोकथाम के माध्यम से इसके उल्लंघन से लड़ने के लिए बनाया गया था।
+\n \n
+नारकोटिक्स कंट्रोल ब्यूरो का मुख्य उद्देश्य अखिल भारतीय स्तर पर मादक पदार्थों की तस्करी से लड़ना है। यह सीमा शुल्क और केंद्रीय उत्पाद शुल्क / जीएसटी, राज्य पुलिस विभाग, केंद्रीय जांच ब्यूरो (सीबीआई), केंद्रीय आर्थिक खुफिया ब्यूरो (सीईआईबी) और अन्य भारतीय खुफिया और कानून प्रवर्तन एजेंसियों के साथ राष्ट्रीय और राज्य दोनों स्तरों पर निकट सहयोग में काम करता है।
+\n \n
+एनसीबी मादक पदार्थों की तस्करी से लड़ने के लिए भारत की ड्रग कानून प्रवर्तन एजेंसियों के कर्मियों को संसाधन और प्रशिक्षण भी प्रदान करता है। एनसीबी उन बिंदुओं को ट्रैक करने के लिए भारत की सीमाओं की निगरानी भी करता है जहां विदेशी तस्करों के साथ तस्करी की गतिविधियां होती हैं।"
+                android:textSize="17sp"
+                android:transitionName="logo_desc" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n                          Copyright©SAKSHAM"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

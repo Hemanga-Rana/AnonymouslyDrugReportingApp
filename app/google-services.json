@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "306342381335",
+    "project_id": "sakham-5b1da",
+    "storage_bucket": "sakham-5b1da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306342381335:android:3314c872621aef3e5b5952",
+        "android_client_info": {
+          "package_name": "com.smartindiahackathon2022.SAKHAM"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306342381335-d7p06mfncm1mf4dbvbjqullsoi2le3h8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBg1Hnn3P5JsIRiBKn-DbhxgX-VfVqOhs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306342381335-d7p06mfncm1mf4dbvbjqullsoi2le3h8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".English.InfoActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          About"
+                android:textColor="@color/colortextprimary"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:transitionName="logo_text" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/colortextprimary"
+                android:text="The Narcotics Control Bureau (abbr. NCB) is an Indian central law enforcement and intelligence agency under the Ministry of Home Affairs, Government of India. The agency is tasked with combating drug trafficking and the use of illegal substances under the provisions of Narcotic Drugs and Psychotropic Substances Act.
+The Narcotics Control Bureau was created on 17 March 1986 to enable the full implementation of The Narcotic Drugs and Psychotropic Substances Act, 1985 and fight its violation through the Prevention of Illicit Trafficking in Narcotic Drugs and Psychotropic Substances Act, 1988.
+\nThe chief purpose of the Narcotics Control Bureau is to fight drug trafficking on an all-India level. It works in close cooperation with the Customs and Central Excise/GST, State Police Department, Central Bureau of Investigation (CBI), Central Economic Intelligence Bureau (CEIB) and other Indian intelligence and law enforcement agencies both at the national and states level.
+The NCB also provides resources and training to the personnel of India's Drug Law Enforcement Agencies in fighting drug trafficking.The NCB also monitors India's frontiers to track down points where smuggling activities take place with foreign traffickers."
+                android:textSize="17sp"
+                android:transitionName="logo_desc" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n                          Copyright©SAKSHAM"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
